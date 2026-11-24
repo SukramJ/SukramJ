@@ -8,7 +8,7 @@ I build open-source software for the **smart home**: Homematic and Homematic IP,
 |---|---|
 | 🏠 Use Homematic in Home Assistant with the integration | [homematicip_local](https://github.com/SukramJ/homematicip_local) |
 | 🧵 Use Homematic through MQTT, REST, Matter or Node-RED, with or without Home Assistant | [openccu-loom](https://github.com/SukramJ/openccu-loom) |
-| 🔗 Embed or run Matter in Go | [go-fabric](https://github.com/SukramJ/go-fabric) |
+| 🔗 Embed or run Matter in Go | [go-fabric](https://github.com/thingfabric/go-fabric) on [ThingFabric](https://github.com/thingfabric) |
 | 🧑‍💻 Talk to Homematic from your own Python code | [aiohomematic](https://github.com/SukramJ/aiohomematic) |
 | 🔌 Bring a single device to MQTT | one of the [bridges](#bridges) |
 
@@ -28,8 +28,8 @@ With the integration installed, please report everything in `homematicip_local`,
 **Homematic data and testing**
 [openccu-data](https://github.com/SukramJ/openccu-data) · [go-openccu-data](https://github.com/SukramJ/go-openccu-data) · [godevccu](https://github.com/SukramJ/godevccu)
 
-**Matter**
-[go-fabric](https://github.com/SukramJ/go-fabric) · [go-fabric-server](https://github.com/SukramJ/go-fabric-server) · [go-fabric-ui](https://github.com/SukramJ/go-fabric-ui) · [go-ha2fabric](https://github.com/SukramJ/go-ha2fabric) · [go-hamapping](https://github.com/SukramJ/go-hamapping)
+**Matter** — in the [ThingFabric](https://github.com/thingfabric) organisation ([thingfabric.dev](https://thingfabric.dev/), docs at [docs.thingfabric.dev](https://docs.thingfabric.dev/))
+[go-fabric](https://github.com/thingfabric/go-fabric) · [go-fabric-server](https://github.com/thingfabric/go-fabric-server) · [go-fabric-ui](https://github.com/thingfabric/go-fabric-ui) · [go-ha2fabric](https://github.com/thingfabric/go-ha2fabric) · and here [go-hamapping](https://github.com/SukramJ/go-hamapping)
 
 <a id="bridges"></a>
 **Bridges** (independent, each with its own issues)
